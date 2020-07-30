@@ -4,7 +4,7 @@ CLI tool to delete all resources for a given AWS service in a given AWS region.
 
 # WARNING!
 
-Use this script at your own risk! It's meant for personal test accounts.
+Use this script at your own risk! As the name imples, it DELETES resources in bulk. It's meant for personal test accounts.
 
 # Usage
 
