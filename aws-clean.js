@@ -13,7 +13,8 @@ const options = yargs
  .argv;
 
 
- // This is the key object you would modify to add additional delete capabilities.
+ // This is the key object you would modify to add additional delete capabilities
+ // without needing to write new functions for each different service / API:
  // Refer to README.md for details:
  var apiMap = {
   "dynamodb-tables": {
