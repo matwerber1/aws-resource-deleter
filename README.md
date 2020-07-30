@@ -12,10 +12,12 @@ Use this script at your own risk! It's meant for personal test accounts.
 ./aws-clean.js --service <SERVICE> --region <REGION>
 ```
 
-Supported values for services are: 
+Supported values for services are below: 
 
 * **dynamodb-tables**
 * **glue-jobs**
+
+I will add more, but its very easy to extend this yourself! read below.
 
 ## How to add new functionality
 
