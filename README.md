@@ -8,6 +8,26 @@ Use this script at your own risk! It's meant for personal test accounts.
 
 # Usage
 
+1. Clone the repo:
+
+  ```sh
+  git clone https://github.com/matwerber1/aws-resource-deleter
+  ```
+
+2. Move into directory:
+
+  ```sh
+  cd aws-resource-deleter
+  ```
+
+3. Install dependencies:
+
+  ```sh
+  npm install
+  ```
+
+4. Run the tool:
+
 ```sh
 ./aws-clean.js --service <SERVICE> --region <REGION>
 ```
