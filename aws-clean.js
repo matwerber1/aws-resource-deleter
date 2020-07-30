@@ -12,6 +12,9 @@ const options = yargs
  .option("r", { alias: "region", describe: "region to clean", type: "string", demandOption: true })
  .argv;
 
+
+ // This is the key object you would modify to add additional delete capabilities.
+ // Refer to README.md for details:
  var apiMap = {
   "dynamodb-tables": {
     sdkConstructor: 'DynamoDB',
